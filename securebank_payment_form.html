@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureBank Payment Gateway</title>
+</head>
+<body>
+    <h1><b>SecureBank Online Payment Portal</b></h1>
+    <small><i>Fast,Secure & Trusted Digital Payments</i></small>
+    <hr>
+    <h2>Customer Information</h2>
+    <h3>Personal Details</h3>
+    <ol>
+        <li>Full Name:*<input type="text"name="name required"></li>
+        <li><fieldset>
+            <legend>*Gender</legend>
+            Male<input type="radio"name="gender"id="male required">
+            Female<input type="radio"name="female required">
+        </fieldset></li>
+        <li>Email Address:*<input type="email"name="email"id="email required"></li>
+        <li>Phone Number:*<input type="tel"id="phone"name="phone"placeholder="Enter 10-digit number"></li>
+        <li>Customer ID:*<input type="text" id="customerId" name="customerId" placeholder="Enter Customer ID required"></li>
+    </ol>
+    <hr>
+    <h2>Payment Details</h2>
+    <h3>Transaction Information</h3>
+    <ol>
+        <li>Transaction ID:*<input type="text"id="transaction Id"name="transaction Id"placeholder="Enter Customer Id"></li>
+        <li>Payment Purpose:<input type="text"id="purpose"name="purpose"placeholder="College Semester Fee"></li>
+        <li>Amount Payable:<input type="text"Id="amount"name="amount"value="₹45,000"></li>
+        <li>Currency:INR</li>
+    </ol>
+    <hr>
+    <h2>Select Payment Method</h2>
+    <h3>Available Options</h3>
+    <p>Payment Type:*
+        <select name="payment_type" id="payment_type required">
+        <option value=" ">--Select a Payment Type--</option>
+        <option value="Debit Card">Debit Card</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="UPI">UPI</option>
+        <option value="Net Banking">Net Banking</option>
+        <option value="Wallet Payment">Wallet Payment</option></select>
+    </p>
+    <hr>
+    <h2>Card Details</h2>
+    <h3>Enter Your Card Information</h3>
+    <ol>
+        <li>Cardholder Name:*<input type="text"name="cardholder_name"id="cardholder_name required"></li>
+        <li>Card Number:*<input type="number"name="card_number"id="card_number required"></li>
+        <li>Expiry Date:*<input type="date"name="exp_date"id="exp_date required"></li>
+        <li>CVV:*<input type="password"name="cvv"id="cvv required"></li>
+    </ol>
+    <hr>
+    <h2>Billing Address</h2>
+    <h3>Address Information</h3>
+    <ol>
+        <li>Street Address:*<textarea name="address"id="address"cols="40"rows="20"></textarea></li>
+        <li>City:<input type="text" name="city"id="city" placeholder="Enter your city"></li>
+        <li>State:<input type="text" name="state"id="state" placeholder="Enter your state"></li>
+        <li>Postal Code:*<input type="text" name="postal"id="postal" placeholder="Enter Postal Code"></li>
+        <li>Country:<input type="text" name="country"id="country" placeholder="Enter your country"></li>
+    </ol>
+    <hr>
+    <h2>Net Banking Section</h2>
+    <ol>
+        <li>Select Your Bank:
+            <select name="select your bank"id="select your bank required">
+                <option value="">--Select Your Bank--</option>
+                <option value="State Bank Of India">State Bank Of India</option>
+                <option value="HDFC Bank">HDFC Bank</option>
+                <option value="ICICI Bank">ICICI Bank</option>
+                <option value="Union Bank">Union Bank</option>
+                <option value="Axis Bank">Axis Bank</option>
+                <option value="Punjab National Bank">Punjab National Bank</option>
+                <option value="Bank Of Baroda">Bank Of Baroda</option>
+        </select>
+        </li>
+    </ol>
+    <hr>
+    <h2>UPI Payment</h2>
+    <p>UPI Id:*<input type="text" name="UPI" id="UPI required"></p>
+    <hr>
+    <h2>Order Summary</h2>
+    <h3>Payment Breakdown</h3>
+    <table border="1">
+    <tr>
+        <th>Description</th>
+        <th>Amount</th>
+    </tr>
+    <tr>
+        <td>Semester Fee</td>
+        <td>₹44,000</td>
+    </tr>
+<tr>
+    <td>Processing Fee</td>
+    <td>₹500</td>
+</tr>
+<tr>
+    <td>GST</td>
+    <td>₹500</td>
+</tr>
+<tr>
+    <th>Total Amount</th>
+    <th>₹45,000</th>
+</tr>
+</table>
+<hr>
+<h2>Security Information</h2>
+<h3>Why Your Payment Is Safe</h3>
+<ol>
+    <li>256-bit Encryption</li>
+    <li>Secure Banking Network</li>
+    <li>OTP Verification</li>
+    <li>Fraud Detection System</li>
+</ol>
+<hr>
+<h2>Terms & Conditions</h2>
+<input type="checkbox"> I confirm that the information provided is accurate.
+<br><br>
+<input type="checkbox"> I agree to SecureBank's Terms & Conditions.
+<br><br>
+<input type="checkbox">I understand that payments are non-refundable after successful processing.
+<hr>
+<h2>Buttons</h2>
+<h3>Main Buttons</h3>
+<button type="submit">Pay Now</button>
+<button type="submit">Reset</button>
+<button type="submit">Cancel Transaction</button>
+<hr>
+<footer>
+    <h3>Customer Support</h3>
+     📞 1800-123-4567 <br><br>
+
+    📧 support@securebank.com <br><br>
+
+    🌐 www.securebank.com
+    </footer>
+<hr>
+<h3>Small Notice</h3>
+<p><i>All transactions are protected by advanced security systems. Never share your OTP, CVV, or banking password with anyone.</i></p>
+<hr>
+</body>
+</html>
