@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✈️ SkyWings Airlines Reservation System</title>
+</head>
+<body>
+    <h1>✈️ SkyWings Airlines Reservation System</h1>
+    <p><i>"Book Your Journey, Explore the World"</i></p>
+    <hr>
+    <h2>🏠 Home Section</h2>
+    <p>Welcome to SkyWings Airlines, your trusted travel partner. Search flights, reserve seats, and plan your next adventure with ease.</p>
+    <hr>
+    <h2>🔍 Flight Search</h2>
+    <h3>Search Your Flight</h3>
+    <p>Departure City:*
+        <select name="departure_city" id="departure_city required">
+            <option name=" ">--Select a Departure City--</option>
+            <option value="New Delhi">New Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chennai">Chennai</option></select>
+    </p>
+    <p>Destination City:*
+        <select name="desitination_city" id="destination_city required">
+            <option name=" ">--Select a Destination City--</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Beijing">Beijing</option></select>
+    </p>
+    <p>Journey Type:
+        <select name="journey_type" id="journey_type required">
+            <option value=" ">--Select a Journey Type--</option>
+            <option value="One Way">One Way</option>
+            <option value="Round Trip">Round Trip</option>
+    </p>
+    <p>Departure Date:*
+        <input type="date" name="departure_date" id="departure_date required">
+    </p>
+    <p>Return Date:*
+        <input type="date" name="return_date" id="reutrn_date required">
+    </p>
+    <p>
+        Number of Passengers:
+        <h3>Number of Passengers</h3>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Passenger Type</th>
+        <th>Count</th>
+    </tr>
+    <tr>
+        <td>Adults</td>
+        <td><input type="number" min="1" value="1"></td>
+    </tr>
+    <tr>
+        <td>Children</td>
+        <td><input type="number" min="0" value="0"></td>
+    </tr>
+    <tr>
+        <td>Infants</td>
+        <td><input type="number" min="0" value="0"></td>
+    </tr>
+</table>
+    </p>
+    <p>Travel Class:
+        <select name="travel_class" id="travel_class required">
+            <option value=" ">--Select a Travel Class--</option>
+            <option value="Economy">Economy</option>
+            <option value="Premium Economy">Premium Economy</option>
+            <option value="Business">Business</option>
+            <option value="First Class">First Class</option></select>
+    </p>
+    <hr>
+    <h3>Available Flights</h3>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>Flight No</th>
+        <th>Route</th>
+        <th>Departure</th>
+        <th>Arrival</th>
+        <th>Price</th>
+    </tr>
+
+    <tr>
+        <td>SW101</td>
+        <td>Delhi → Tokyo</td>
+        <td>08:00 AM</td>
+        <td>06:00 PM</td>
+        <td>₹55,000</td>
+    </tr>
+
+    <tr>
+        <td>SW205</td>
+        <td>Delhi → Dubai</td>
+        <td>10:00 AM</td>
+        <td>01:30 PM</td>
+        <td>₹18,000</td>
+    </tr>
+
+    <tr>
+        <td>SW320</td>
+        <td>Mumbai → London</td>
+        <td>07:00 AM</td>
+        <td>05:00 PM</td>
+        <td>₹72,000</td>
+    </tr>
+
+    <tr>
+        <td>SW450</td>
+        <td>Bengaluru → Singapore</td>
+        <td>09:30 AM</td>
+        <td>03:30 PM</td>
+        <td>₹25,000</td>
+    </tr>
+</table>
+<hr>
+<h2>Passenger Information</h2>
+<h3>Primary Passenger</h3>
+<p>Full Name:*<input type="text" name="name required"></p>
+<p>Date Of Birth:*<input type="date" name="date_of_birth" id="date_of_birth required"></p>
+    <fieldset>
+        <legend>Gender*</legend>
+        <p>
+            Male<input type="radio" name="gender" id="male required">
+            Female<input type="radio" name="gender" id="female required">
+        </p>
+    </fieldset>
+    <p>Nationality:*
+        <input type="text" id="nationality" name="nationality" placeholder="Enter your nationality">
+    </p>
+<p>Passport Number:*
+    <input type="number" name="number" id="Enter your passport number"></p>
+    <p>Mobile Number:*
+        <input type="number" name="number" id="Enter your mobile number"></p>
+        <p>Email Address:*
+            <input type="Email" name="email" id="email required"></p>
+            <hr>
+            <h2>💺 Seat Selection</h2>
+<h3>Economy Class</h3>
+<ul>
+    <li>Standard Window Seat</li>
+    <li>Standard Middle Seat</li>
+    <li>Standard Aisle Seat</li>
+</ul>
+
+<h3>Business Class</h3>
+<ul>
+    <li>Premium Recliner Seat</li>
+    <li>Extra Legroom</li>
+</ul>
+
+<h3>First Class</h3>
+<ul>
+    <li>Luxury Private Cabin</li>
+    <li>Premium Services Included</li>
+</ul>
+                <hr>
+                <h2>🧳 Baggage Information</h2>
+            <h3>Cabin Baggage</h3>
+            <ol>
+                <li>Maximun 7KG</li>
+            </ol>
+            <h3>Checked Baggage</h3>
+            <ol>
+                <li>Economy:20KG</li>
+                <li>Premuim Economy:25KG</li>
+                <li>Business:35KG</li>
+                <li>First Class:40KG</li>
+            </ol>
+                    <h3>Additional Baggage Charges</h3>
+                    <ol>
+                        <li>₹500 per extra KG</li>
+                    </ol>
+                    <hr>
+                    <h2>🍽️ Meal Preferences</h2>
+                    <p>Select Your Meal:
+                        <select name="select_your_meal" id="select_your_meal required">
+                            <option value=" ">--Select Your Meal--</option>
+                            <option value="Vegetarian Meal">Vegetarian Meal</option>
+                            <option value="Vegan Meal">Vegan Meal</option>
+                            <option value="Non-Vegetarian Meal">Non-Vegetarian Meal</option>
+                            <option value="Jain Meal">Jain Meal</option>
+                            <option value="Special Medical Meal">Special Medical Meal</option></select>
+                    </p>
+                    <hr>
+                  <h2>🏨 Additional Services</h2>
+                  <p>Add-On Services</p>
+                  <ol>
+                    <li>Airport Lounge Access</li>
+                    <li>Travel Insurance</li>
+                    <li>Priority Boarding</li>
+                    <li>Extra Legroom Seat</li>
+                    <li>Hotel Booking Assistance</li>
+                  </ol>
+                  <hr>
+                  <h2>💳 Payment Details</h2>
+                  <h3>Booking Summary</h3>
+                  <table border="1">
+                  <tr>
+                    <th>Item</th>
+                    <th>Amount</th>
+                  </tr>
+                  <tr>
+                    <td>Airfare</td>
+                    <td>₹55,000</td>
+                  </tr>
+                  <tr>
+                    <td>Taxes</td>
+                    <td>₹3,500</td>
+                  </tr>
+                  <tr>
+                    <td>Convenience Fee</td>
+                    <td>₹500</td>
+                  </tr>
+                  <tr>
+                    <td>Travel Insurance</td>
+                    <td>₹1,000</td>
+                  </tr>
+                  <tr>
+                    <th>Total Amount</th>
+                    <th>₹60,000</th>
+                  </tr></table>
+                  <h2>Payment Methods</h2>
+                  <p>Payment Method</p>
+                    <select name="payment_method" id="payment_method required">
+                        <option value=" ">--Select a Payment Method--</option>
+                        <option value="Credit Card">Credit Card</option>
+                        <option value="Debit Card">Debit Card</option>
+                        <option value="UPI">UPI</option>
+                        <option value="Net Banking">Net Banking</option>
+                        <option value="Wallet Payment">Wallet Payment</option></select>
+                        <hr>
+                        <h2>📄 Booking Confirmation</h2>
+                        <h3>Booking Successful</h3>
+                        <p><b>Booking Reference:</b>SWB2026004</p>
+                        <p><b>Passenger:</b>Yuvraj Mishra</p>
+                        <p><b>Flight:</b>SW101</p>
+                        <p><b>Route:</b>New Delhi → Tokyo</p>
+                        <p><b>Seat:</b>12A (Window)</p>
+                        <p><b>Status:</b>Confirmed ✅</p>
+                        <hr>
+                        <h2>🌍 Popular Destinations</h2>
+                        <h3>International</h3>
+                        <ol>
+                            <li>Tokyo</li>
+                            <li>London</li>
+                            <li>Dubai</li>
+                            <li>Singapore</li>
+                            <li>New York</li>
+                        </ol>
+                        <h3>Domestic</h3>
+                        <ol>
+                            <li>Goa</li>
+                            <li>Manali</li>
+                            <li>Kashmir</li>
+                            <li>Delhi</li>
+                            <li>Jaipur</li>
+                        </ol>
+                        <h2>📞 Customer Support</h2>
+                        <h3>Contact Us</h3>
+                  <ol>
+                    <li>Toll Free:1800-456-7890</li>
+                    <li>Email:<a href="mailto:support@skywingsairlines.com"></a></li>
+                    <li>Working Hours:24/7</li>
+                  </ol>
+                  <hr>
+                  <h2>📜 Terms & Conditions</h2>
+                  <ol>
+                    <li>Tickets are non-transferable.</li>
+                    <li>Passport is mandatory for international travel.</li>
+                    <li>Check-in closes 60 minutes before departure.</li>
+                    <li>Baggage policies apply as per airline rules.</li>
+                  </ol>
+                  <hr>
+                  <footer>
+                    <h2>SkyWings Airlines</h2>
+                    <p><i>"Connecting Dreams Across The World"</i></p>
+                  </footer>
+</body>
+</html>
