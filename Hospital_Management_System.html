@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏥 MediCare Hospital Management System</title>
+</head>
+<body>
+    <h1>🏥 MediCare Hospital Management System</h1>
+    <p><i>"Your Health,Our Priority"</i></p>
+    <hr>
+    <h2>🏠 Home Section</h2>
+    <p>Welcome to MediCare Hospital, where advanced healthcare meets compassionate service. Book appointments, manage patient records, and access healthcare services online.</p>
+    <hr>
+    <h2>👤 Patient Registration</h2>
+    <h3>Personal Information</h3>
+    <ol>
+        <li>Full Name:*<input type="text" name="full_name" id="full_name"required></li>
+        <li>Date of Birth:*<input type="date" name="date_of _birth" id="date_of_birth"required></li>
+        <li><fieldset>
+            <legend>Gender*</legend>
+            Male<input type="radio" name="gender" id="male"required>
+            Female<input type="radio" name="gender" id="female"required>
+        </fieldset></li>
+        <li><select id="bloodgroup" name="bloodgroup" required>
+    <option value="">Select Blood Group</option>
+    <option>A+</option>
+    <option>A-</option>
+    <option>B+</option>
+    <option>B-</option>
+    <option>AB+</option>
+    <option>AB-</option>
+    <option>O+</option>
+    <option>O-</option></select>
+        <li>Mobile Number:*<input type="number" name="number" id="mobile_number"required></li>
+        <li>Email Address:*<input type="Email" name="email" id="email"required></li>
+        <li>Emergency Contact:*<input type="number" name="emergency_contact" id="emergency_contact"required></li>
+    </ol>
+    <h3>Address Information</h3>
+    <ol>
+        <li>Street Address:*<textarea name="address" id="address" cols="30" rows="10"></textarea></li>
+        <li>City:*<input type="text" name="city" id="Enter_your_City"></li>
+        <li>State:*<input type="text" name="state" id="Enter_your_State"></li>
+        <li>Postal Code:*<input type="number" name="postal_code" id="postal_code"required></li>
+    </ol>
+    <hr>
+    <h2>🩺 Department Selection</h2>
+    <h3>Available Departments</h3>
+    <ol>
+        <li>Cardiology</li>
+        <li>Neurology</li>
+        <li>Orthopedics</li>
+        <li>Pediatrics</li>
+        <li>Dermatology</li>
+        <li>General Medicine</li>
+        <li>ENT</li>
+        <li>Ophthalmology</li>
+    </ol>
+    <hr>
+    <h2>👨‍⚕️ Doctor Directory</h2>
+    <table border="1">
+        <tr>
+            <th>Doctor</th>
+            <th>Department</th>
+            <th>Experience</th>
+        </tr>
+        <tr>
+            <td>Dr.Sharma</td>
+            <td>Cardiology</td>
+            <td>15years</td>
+        </tr>
+        <tr>
+            <td>Dr.Gupta</td>
+            <td>Neurology</td>
+            <td>12 years</td>
+        </tr>
+        <tr>
+            <td>Dr.Kumar</td>
+            <td>Orthopedics</td>
+            <td>12years</td>
+        </tr>
+        <tr>
+            <td>Dr.Verma</td>
+            <td>Pediatrics</td>
+            <td>10years</td>
+        </tr>
+        <tr>
+            <td>Dr.Singh</td>
+            <td>ENT</td>
+            <td>8years</td>
+        </tr>
+        <tr>
+            <td>Dr.Mishra</td>
+            <td>Ophthalmology</td>
+            <td>7years</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>📅 Appointment Booking</h2>
+    <ol>
+        <li>
+    Appointment Details:
+        <select name="select_doctor" id="select_doctor"required>
+            <option value=" ">--Select a Doctor--</option>
+            <option value="Dr.Sharma">Dr.Sharma</option>
+            <option value="Dr.Gupta">Dr.Gupta</option>
+            <option value="Dr.Kumar">Dr.Kumar</option>
+            <option value="Dr.Verma">Dr.Verma</option>
+            <option value="Dr.Singh">Dr.Singh</option>
+            <option value="Dr.Mishra">Dr.Mishra</option>
+        </select></li>
+        <li>Appointment Date:<input type="date" name="appointment_date" id="appointment_date"required></li>
+        <li>Preferred Time:<input type="time" name="preferred_time" id="preferred_time"required></li>
+        <li>Consultation Type:<select name="consultation_type" id="consultation_type"required>
+            <option value=" ">--Select a Consultation Type--</option>
+            <option value="In-Person">In-Person</option>
+            <option value="Video Consultation">Video Consultation</option></select></li>
+    </ol>
+        <h3>Symptoms</h3><textarea name="text" id="symptoms" cols="30" rows="10"></textarea>
+        <hr>
+        <h2>📋 Medical History</h2>
+        <h3>Previous Conditions</h3>
+        <ol>
+           <li>Diabetes</li>
+           <li>Hypertension</li>
+           <li>Asthma</li>
+           <li>Heart Disease</li>
+           <li>Allergies</li>
+        </ol>
+        <h3>Current Medications:<textarea name="text" id="current_medications" cols="30" rows="10"></textarea></h3>
+        <hr>
+        <h2>💉 Health Services</h2>
+        <h3>Services Offered</h3>
+        <ol>
+        <li>Health Checkups</li>
+        <li>Blood Tests</li>
+        <li>X-Ray</li>
+        <li>MRI Scan</li>
+        <li>CT Scan</li>
+        <li>Vaccinations</li>
+        <li>Emergency Care</li>
+        </ol>
+        <hr>
+        <h2>💰 Billing Summary</h2>
+        <table border="1">
+        <tr>
+          <th>Service</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+        <td>Consultation Fee</td>
+        <td>₹800</td>
+        </tr>
+        <tr>
+          <td>Blood Test</td>
+          <td>₹500</td>
+        </tr>
+        <tr>
+          <td>X-Ray</td>
+          <td>₹1,200</td>
+        </tr>
+        <tr>
+          <th>Total</th>
+          <th>₹2,500</th>
+        </tr>
+        </table>
+        <hr>
+        <h2>💳 Payment Options</h2>
+        <p>Payment Options:
+          <select name="payment_options" id="payment_option"required>
+          <option value=" ">--Select a Payment Option--</option>
+          <option value="UPI">UPI</option>
+          <option value="Credit Card">Credit Card</option>
+          <option value="Debit Card">Debit Card</option>
+          <option value="Net Banking">Net Banking</option>
+          <option value="Cash at Hospital">Cash at Hospital</option></select>
+        </p>
+        <hr>
+        <h2>🚑 Emergency Services</h2>
+        <h3>Emergency Helpline</h3>
+        <ol>
+          <li>Ambulance:102</li>
+          <li>Emergency Support:+91 XXXXX XXXXX</li>
+        </ol>
+        <h3>Available 24/7</h3>
+        <ol>
+          <li>Emergency Ward</li>
+          <li>ICU</li>
+          <li>Trauma Care</li>
+        </ol>
+        <hr>
+        <h2>⭐ Patient Testimonials</h2>
+        <h3>Review 1</h3>
+        <p>★★★★★ 
+          "The doctors were professional and caring. Excellent experience."
+        </p>
+        <h3>Review 2</h3>
+        <p>★★★★★ 
+           "Quick appointment booking and helpful staff."
+        </p>
+        <hr>
+        <h2>📞 Contact Us</h2>
+        <h3>Hospital Information</h3>
+        <ol>
+          <li>Phone:+91 XXXXX XXXXX</li>
+          <li>Email:<a href="mailto:info@medicarehospital.com">info@medicarehospital.com</a></li>
+          <li>Address:New Delhi,India</li>
+        </ol>
+        <hr>
+        <footer>
+          <h3>Quick Links</h3>
+        <ol>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Appointment</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        <h3>Footer Note</h3>
+           <p><i>MediCare Hospital is committed to providing quality healthcare and ensuring patient well-being.</i></p>
+        </footer>
+</body>
+</html>
