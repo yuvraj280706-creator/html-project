@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏠 DreamHome Real Estate Portal</title>
+</head>
+<body>
+    <h1>🏠 DreamHome Real Estate Portal</h1>
+    <p><i>"Perfectly blending charm and modern convenience..."</i></p>
+    <hr>
+    <h2>🏠 Home Section</h2>
+    <h3>Welcome Message</h3>
+    <p>Welcome to DreamHome, your trusted real estate partner. Browse properties, compare prices, and find your dream home.</p>
+    <hr>
+    <h2>🔍 Property Search</h2>
+    <h3>Seach Filters</h3>
+    <ol>
+        <li>Property Type:
+            <select name="property_type" id="property_type" required>
+                <option value=" ">--Select a Property Type--</option>
+                <option value="Apartment">Apartment</option>
+                <option value="Villa">Villa</option>
+                <option value="Independent House">Independent House</option>
+                <option value="Commercial Property">Commercial Property</option>
+                <option value="Land/Plot">Land/Plot</option></select>
+        </li>
+        <li>City:
+            <input type="text" name="city" id="city" required>
+        </li>
+        <li>Budget:
+            <input type="text" name="budget" id="budget" required>
+        </li>
+        <li>Number Of Bedrooms:
+            <select name="bedrooms" id="number_of_bedrooms" required>
+                <option value=" ">--Select Number Of Bedrooms--</option>
+                <option value="1BHK">1BHK</option>
+                <option value="2BHK">2BHK</option>
+                <option value="3BHK">3BHK</option>
+                <option value="4BHK">4BHK</option>
+                <option value="5BHK">5BHK</option></select>
+            </li>
+            <li>Property Status:<br>
+        <input type="checkbox"> Ready to Move <br>
+        <input type="checkbox"> Under Construction <br>
+        <input type="checkbox"> New Property <br>
+        <input type="checkbox"> Resale Property <br>
+        <input type="checkbox"> Commercial Property <br>
+        <input type="checkbox"> Plot / Land</li>
+    </ol>
+    <hr>
+
+    <h2>⭐ Featured Properties</h2>
+    <h3>Property 1</h3>
+    <h4>Luxury Apartment</h4>
+    <ol>
+        <li>Location:Mumbai</li>
+        <li>Bedrooms:3BHK</li>
+        <li>Area:1800 sq ft</li>
+        <li>Price:₹1.5 Crore</li>
+    </ol>
+    <hr>
+    <h3>Property 2</h3>
+    <h4>Modern Villa</h4>
+    <ol>
+        <li>Locations:Bengaluru</li>
+        <li>Bedrooms:4BHK</li>
+        <li>Area:2900 sq ft</li>
+        <li>Price:₹3 Crore</li>
+    </ol>
+    <hr>
+    <h3>Property 3</h3>
+    <h4>Independent House</h4>
+    <ol>
+        <li>Location:Delhi</li>
+        <li>Bedrooms:5BHK</li>
+        <li>Area:3500 sq ft</li>
+        <li>Price:₹3.5 Crore</li>
+    </ol>
+    <hr>
+    <h2>📋 Property Comparison Table</h2>
+    <table border="1">
+        <tr>
+            <th>Property</th>
+            <th>Location</th>
+            <th>Area</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Luxury Appartment</td>
+            <td>Mumbai</td>
+            <td>1800 sq ft</td>
+            <td>₹1.5 Cr</td>
+        </tr>
+        <tr>
+            <td>Modern Villa</td>
+            <td>Bengaluru</td>
+            <td>2900 sq ft</td>
+            <td>₹3 Cr</td>
+        </tr>
+        <tr>
+            <td>Independent House</td>
+            <td>Delhi</td>
+            <td>3500 sq ft</td>
+            <td>₹3.5 Cr</td>
+        </tr>
+    </table>
+    <h2>🏢 Property Details</h2>
+    <h3>Amenities</h3>
+    <ol>
+        <li>Swimming Pool</li>
+        <li>Gym</li>
+        <li>Parking</li>
+        <li>Security</li>
+        <li>Garden</li>
+        <li>Clubhouse</li>
+    </ol>
+    <h2>👤 Schedule a Visit</h2>
+    <h3>Visitor Information</h3>
+    <ol>
+        <li>Full Name:*<input type="text" name="full_name" id="full_name" required></li>
+        <li>Mobile Number:*<input type="number" name="mobile_number" id="mobile_number" required></li>
+        <li>Email Address:*<input type="email" name="email" id="email" required></li>
+        <li>Preferred Visit Date:*<input type="date" name="preferred_visit_date" id="preferred_visit_date" required></li>
+        <li>Preferred Time:*<input type="time" name="preferred_time" id="preferred_time" required></li>
+    </ol>
+    <hr>
+    <section>
+    <h2>💰 Home Loan Calculator</h2>
+
+    <fieldset>
+        <legend>Loan Information</legend>
+
+        <input type="number" placeholder="🏠 Property Price (₹)" required>
+        <br><br>
+
+        <input type="number" placeholder="💵 Down Payment (₹)" required>
+        <br><br>
+
+        <input type="number" placeholder="💳 Loan Amount (₹)" required>
+        <br><br>
+
+        <input type="number" placeholder="📈 Interest Rate (%)" required>
+        <br><br>
+
+        <select>
+            <option selected disabled>📅 Select Loan Tenure</option>
+            <option>5 Years</option>
+            <option>10 Years</option>
+            <option>15 Years</option>
+            <option>20 Years</option>
+            <option>25 Years</option>
+            <option>30 Years</option>
+        </select>
+        <br><br>
+
+        <select>
+            <option selected disabled>🏦 Select Bank</option>
+            <option>SBI</option>
+            <option>HDFC Bank</option>
+            <option>ICICI Bank</option>
+            <option>Axis Bank</option>
+            <option>PNB</option>
+        </select>
+        <br><br>
+
+        <button>Calculate EMI</button>
+    </fieldset>
+</section>
+<hr>
+<h2>⭐ Customer Testimonials</h2>
+<p><b>Raj Sharma</b></p>
+<p>★★★★★</p>
+<p>"Found my dream apartment within a week."</p><br>
+<p><b>Priya Verma</b></p>
+<p>★★★★★</p>
+<p>"Excellent property listings and easy booking process"</p>
+<hr>
+<h2>📞 Contact an Agent</h2>
+<table border="1">
+    <h3>Agent Details</h3>
+    <tr>
+        <th>Agent Name</th>
+        <th>Experience</th>
+        <th>Contact</th>
+    </tr>
+    <tr>
+        <td>Amit Kumar</td>
+        <td>10 Years</td>
+        <td>+91 XXXXX XXXXX</td>
+    </tr>
+    <tr>
+        <td>Neha Singh</td>
+        <td>8 Years</td>
+        <td>+91 XXXXX XXXXX</td>
+    </tr>
+</table>
+<hr>
+<h2>📍 Office Locations</h2>
+<ol>
+    <li>Delhi</li>
+    <li>Pune</li>
+    <li>Hyderabad</li>
+    <li>Patna</li>
+    <li>Bengaluru</li>
+</ol>
+<hr>
+<footer>
+    <h3>Quick Links</h3>
+    <ol>
+        <li>Buy Property:<a href="#">Buy Property</a></li>
+        <li>Rent Property:<a href="#">Rent Property</a></li>
+        <li>Home Loans:<a href="#">Home Loans</a></li>
+        <li>Contact Us:<a href="#">Contact Us</a></li>
+        <li>About Us:<a href="#">About Us</a></li>
+    </ol>
+    <h3>Footer Note</h3>
+    <p><i>DreamHome helps people find properties that match their lifestyle and budget.</i></p>
+</footer>
+</body>
+</html>
