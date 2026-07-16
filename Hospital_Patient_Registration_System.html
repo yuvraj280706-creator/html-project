@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Patient Registration System</title>
+</head>
+<body>
+
+    <header>
+        <h1 align="center">City Care Hospital</h1>
+        <hr>
+
+        <nav align="center">
+            <a href="#">Home</a> 
+            <a href="#">Departments</a> 
+            <a href="#">Doctors</a> 
+            <a href="#">Appointments</a> 
+            <a href="#">Contact</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+
+        <h2 align="center">Patient Registration Form</h2>
+
+        <form>
+
+            <fieldset>
+
+                <legend><b>Personal Information</b></legend>
+
+                <label>First Name:</label><br>
+                <input type="text" required><br><br>
+
+                <label>Last Name:</label><br>
+                <input type="text" required><br><br>
+
+                <label>Date of Birth:</label><br>
+                <input type="date"><br><br>
+
+                <label>Gender:</label><br>
+
+                <input type="radio" name="gender">
+                Male
+
+                <input type="radio" name="gender">
+                Female
+
+                <input type="radio" name="gender">
+                Other
+
+                <br><br>
+
+                <label>Blood Group:</label><br>
+
+                <select>
+                    <option>Select</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                </select>
+
+                <br><br>
+
+                <label>Phone Number:</label><br>
+                <input type="tel"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email"><br><br>
+
+                <label>Address:</label><br>
+                <textarea rows="4" cols="40"></textarea>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend><b>Medical Information</b></legend>
+
+                <label>Department:</label><br>
+
+                <select>
+                    <option>General Medicine</option>
+                    <option>Cardiology</option>
+                    <option>Orthopedics</option>
+                    <option>Neurology</option>
+                    <option>Pediatrics</option>
+                    <option>Dermatology</option>
+                    <option>ENT</option>
+                </select>
+
+                <br><br>
+
+                <label>Doctor Preference:</label><br>
+
+                <input type="text"><br><br>
+
+                <label>Appointment Date:</label><br>
+
+                <input type="date"><br><br>
+
+                <label>Appointment Time:</label><br>
+
+                <input type="time"><br><br>
+
+                <label>Symptoms:</label><br>
+
+                <textarea rows="5" cols="50"></textarea>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend><b>Emergency Contact</b></legend>
+
+                <label>Name:</label><br>
+
+                <input type="text"><br><br>
+
+                <label>Relationship:</label><br>
+
+                <input type="text"><br><br>
+
+                <label>Phone Number:</label><br>
+
+                <input type="tel"><br><br>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend><b>Medical History</b></legend>
+
+                <input type="checkbox">
+                Diabetes
+                <br>
+
+                <input type="checkbox">
+                High Blood Pressure
+                <br>
+
+                <input type="checkbox">
+                Heart Disease
+                <br>
+
+                <input type="checkbox">
+                Asthma
+                <br>
+
+                <input type="checkbox">
+                Kidney Disease
+                <br>
+
+                <input type="checkbox">
+                Allergy
+                <br>
+
+                <input type="checkbox">
+                None
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend><b>Insurance Details</b></legend>
+
+                <label>Insurance Provider:</label><br>
+
+                <input type="text"><br><br>
+
+                <label>Policy Number:</label><br>
+
+                <input type="text"><br><br>
+
+                <label>Validity:</label><br>
+
+                <input type="date">
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend><b>Declaration</b></legend>
+
+                <input type="checkbox" required>
+
+                I confirm that all information provided is correct.
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Register Patient">
+
+            <input type="reset" value="Clear Form">
+
+        </form>
+
+        <br>
+
+        <hr>
+
+        <h2>Hospital Facilities</h2>
+
+        <ul>
+            <li>24×7 Emergency Service</li>
+            <li>Ambulance Facility</li>
+            <li>Laboratory</li>
+            <li>Pharmacy</li>
+            <li>Blood Bank</li>
+            <li>ICU</li>
+            <li>Operation Theatre</li>
+        </ul>
+
+        <h2>Available Departments</h2>
+
+        <ol>
+            <li>General Medicine</li>
+            <li>Cardiology</li>
+            <li>Orthopedics</li>
+            <li>Neurology</li>
+            <li>Pediatrics</li>
+            <li>Dermatology</li>
+            <li>ENT</li>
+        </ol>
+
+        <h2>Doctor Availability</h2>
+
+        <table border="1" cellpadding="8">
+
+            <tr>
+                <th>Doctor</th>
+                <th>Department</th>
+                <th>Available</th>
+            </tr>
+
+            <tr>
+                <td>Dr. Sharma</td>
+                <td>Cardiology</td>
+                <td>Mon - Fri</td>
+            </tr>
+
+            <tr>
+                <td>Dr. Singh</td>
+                <td>Orthopedics</td>
+                <td>Tue - Sat</td>
+            </tr>
+
+            <tr>
+                <td>Dr. Patel</td>
+                <td>Dermatology</td>
+                <td>Daily</td>
+            </tr>
+
+            <tr>
+                <td>Dr. Verma</td>
+                <td>Pediatrics</td>
+                <td>Mon - Sat</td>
+            </tr>
+
+        </table>
+
+    </main>
+
+    <hr>
+
+    <footer align="center">
+
+        <p>
+            City Care Hospital<br>
+            Open 24 Hours<br>
+            Email: info@citycarehospital.com<br>
+            Phone: +91 9876543210
+        </p>
+
+        <p>© 2026 City Care Hospital. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
