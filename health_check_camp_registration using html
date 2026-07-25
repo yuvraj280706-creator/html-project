@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Health Checkup Camp Registration System</title>
+
+</head>
+
+<body>
+
+<h1 align="center">Health Checkup Camp Registration System</h1>
+
+<p align="center">
+Welcome to our Health Checkup Camp.
+This camp is organized to provide free health checkups and medical advice for everyone.
+</p>
+
+<hr>
+
+<h2>Menu</h2>
+
+<a href="#home">Home</a> |
+<a href="#about">About Camp</a> |
+<a href="#services">Services</a> |
+<a href="#doctors">Doctors</a> |
+<a href="#schedule">Schedule</a> |
+<a href="#contact">Contact</a>
+
+<hr>
+
+<a name="home"></a>
+
+<h2>Home</h2>
+
+<p>
+Our Health Checkup Camp helps people check their health through free medical
+tests and consultations. Experienced doctors and nurses are available to guide
+patients and provide useful health advice.
+</p>
+
+<img src="https://via.placeholder.com/650x250" alt="Health Camp">
+
+<hr>
+
+<a name="about"></a>
+
+<h2>About the Camp</h2>
+
+<p>
+The Health Checkup Camp is organized every year to spread awareness about
+healthy living. People of all age groups can participate in the camp and
+receive free health services.
+</p>
+
+<p>
+The main goal of this camp is to detect health problems early and encourage
+people to take better care of their health.
+</p>
+
+<hr>
+
+<h2>Our Objectives</h2>
+
+<ul>
+
+<li>Provide free health checkups</li>
+
+<li>Promote healthy lifestyle</li>
+
+<li>Create health awareness</li>
+
+<li>Offer free medical advice</li>
+
+<li>Help people prevent diseases</li>
+
+<li>Support the local community</li>
+
+</ul>
+
+<hr>
+
+<a name="services"></a>
+
+<h2>Health Services</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Service</th>
+<th>Available</th>
+
+</tr>
+
+<tr>
+
+<td>General Health Checkup</td>
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Blood Pressure Test</td>
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Blood Sugar Test</td>
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Eye Checkup</td>
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>Dental Checkup</td>
+<td>Yes</td>
+
+</tr>
+
+<tr>
+
+<td>BMI Check</td>
+<td>Yes</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<a name="doctors"></a>
+
+<h2>Doctors Available</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Doctor Name</th>
+<th>Specialization</th>
+
+</tr>
+
+<tr>
+
+<td>Dr. Amit Sharma</td>
+<td>General Physician</td>
+
+</tr>
+
+<tr>
+
+<td>Dr. Neha Verma</td>
+<td>Dentist</td>
+
+</tr>
+
+<tr>
+
+<td>Dr. Rahul Singh</td>
+<td>Eye Specialist</td>
+
+</tr>
+
+<tr>
+
+<td>Dr. Priya Patel</td>
+<td>Cardiologist</td>
+
+</tr>
+
+<tr>
+
+<td>Dr. Karan Mehta</td>
+<td>Nutrition Expert</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<a name="schedule"></a>
+
+<h2>Camp Schedule</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Time</th>
+<th>Activity</th>
+
+</tr>
+
+<tr>
+
+<td>9:00 AM</td>
+<td>Registration</td>
+
+</tr>
+
+<tr>
+
+<td>10:00 AM</td>
+<td>General Health Checkup</td>
+
+</tr>
+
+<tr>
+
+<td>11:30 AM</td>
+<td>Blood Tests</td>
+
+</tr>
+
+<tr>
+
+<td>1:00 PM</td>
+<td>Lunch Break</td>
+
+</tr>
+
+<tr>
+
+<td>2:00 PM</td>
+<td>Doctor Consultation</td>
+
+</tr>
+
+<tr>
+
+<td>4:00 PM</td>
+<td>Health Awareness Session</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Health Tips</h2>
+
+<ol>
+
+<li>Drink plenty of water every day.</li>
+
+<li>Eat fresh fruits and vegetables.</li>
+
+<li>Exercise regularly.</li>
+
+<li>Get enough sleep.</li>
+
+<li>Avoid smoking and alcohol.</li>
+
+<li>Visit your doctor for regular checkups.</li>
+
+</ol>
+
+<hr>
+<h2>Medical Tests Available</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Test</th>
+<th>Status</th>
+
+</tr>
+
+<tr>
+
+<td>Blood Sugar Test</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Blood Pressure Test</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>BMI Check</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Eye Vision Test</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Dental Checkup</td>
+<td>Available</td>
+
+</tr>
+
+<tr>
+
+<td>Heart Checkup</td>
+<td>Available</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Vaccination Services</h2>
+
+<p>
+Free vaccination services are available for eligible people.
+Doctors will guide patients before vaccination.
+</p>
+
+<table border="1">
+
+<tr>
+
+<th>Vaccine</th>
+<th>Age Group</th>
+
+</tr>
+
+<tr>
+
+<td>COVID-19</td>
+<td>18 Years and Above</td>
+
+</tr>
+
+<tr>
+
+<td>Hepatitis B</td>
+<td>All Ages</td>
+
+</tr>
+
+<tr>
+
+<td>Tetanus</td>
+<td>All Ages</td>
+
+</tr>
+
+<tr>
+
+<td>Flu Vaccine</td>
+<td>Senior Citizens</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Camp Facilities</h2>
+
+<ul>
+
+<li>Free Drinking Water</li>
+
+<li>Waiting Area</li>
+
+<li>Wheelchair Support</li>
+
+<li>First Aid Room</li>
+
+<li>Free Medicines</li>
+
+<li>Emergency Ambulance</li>
+
+<li>Clean Washrooms</li>
+
+</ul>
+
+<hr>
+
+<h2>Patient Guidelines</h2>
+
+<ol>
+
+<li>Carry a valid ID card.</li>
+
+<li>Reach the camp on time.</li>
+
+<li>Bring previous medical reports if available.</li>
+
+<li>Follow the doctor's instructions.</li>
+
+<li>Maintain cleanliness inside the camp.</li>
+
+<li>Collect your medical report before leaving.</li>
+
+</ol>
+
+<hr>
+
+<h2>Camp Statistics</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Category</th>
+<th>Number</th>
+
+</tr>
+
+<tr>
+
+<td>Doctors</td>
+<td>12</td>
+
+</tr>
+
+<tr>
+
+<td>Nurses</td>
+<td>18</td>
+
+</tr>
+
+<tr>
+
+<td>Volunteers</td>
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>Patients Registered</td>
+<td>520</td>
+
+</tr>
+
+<tr>
+
+<td>Medical Tests Done</td>
+<td>480</td>
+
+</tr>
+
+<tr>
+
+<td>Vaccinations Given</td>
+<td>210</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Our Volunteers</h2>
+
+<table border="1">
+
+<tr>
+
+<th>Name</th>
+<th>Role</th>
+
+</tr>
+
+<tr>
+
+<td>Ankit Kumar</td>
+<td>Registration Desk</td>
+
+</tr>
+
+<tr>
+
+<td>Pooja Singh</td>
+<td>Patient Guidance</td>
+
+</tr>
+
+<tr>
+
+<td>Rahul Das</td>
+<td>Medical Support</td>
+
+</tr>
+
+<tr>
+
+<td>Sneha Patel</td>
+<td>Report Distribution</td>
+
+</tr>
+
+</table>
+
+<hr>
+
+<h2>Success Stories</h2>
+
+<p><b>Ravi Kumar</b></p>
+
+<p>
+"I visited the health camp for a regular checkup and found that my blood pressure was high.
+The doctors guided me with medicines and healthy lifestyle tips."
+</p>
+
+<p><b>Sunita Sharma</b></p>
+
+<p>
+"The staff members were very helpful and the checkup was completely free.
+I am thankful to the entire medical team."
+</p>
+
+<p><b>Aman Verma</b></p>
+
+<p>
+"The registration process was simple and all the tests were completed on time.
+It was a very good experience."
+</p>
+
+<hr>
+<h2>Patient Registration Form</h2>
+
+<form>
+
+<label>Full Name</label>
+
+<br><br>
+
+<input type="text">
+
+<br><br>
+
+<label>Age</label>
+
+<br><br>
+
+<input type="number">
+
+<br><br>
+
+<label>Gender</label>
+
+<br><br>
+
+<select>
+
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+
+</select>
+
+<br><br>
+
+<label>Phone Number</label>
+
+<br><br>
+
+<input type="tel">
+
+<br><br>
+
+<label>Email</label>
+
+<br><br>
+
+<input type="email">
+
+<br><br>
+
+<label>Address</label>
+
+<br><br>
+
+<textarea rows="4" cols="40"></textarea>
+
+<br><br>
+
+<label>Select Health Service</label>
+
+<br><br>
+
+<select>
+
+<option>General Checkup</option>
+<option>Blood Pressure Test</option>
+<option>Blood Sugar Test</option>
+<option>Eye Checkup</option>
+<option>Dental Checkup</option>
+<option>Heart Checkup</option>
+
+</select>
+
+<br><br>
+
+<input type="submit" value="Register">
+
+<input type="reset" value="Clear">
+
+</form>
+
+<hr>
+
+<h2>Patient Feedback</h2>
+
+<form>
+
+<label>Your Name</label>
+
+<br><br>
+
+<input type="text">
+
+<br><br>
+
+<label>Rate Our Camp</label>
+
+<br><br>
+
+<select>
+
+<option>Excellent</option>
+<option>Very Good</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+
+</select>
+
+<br><br>
+
+<label>Your Feedback</label>
+
+<br><br>
+
+<textarea rows="5" cols="40"></textarea>
+
+<br><br>
+
+<input type="submit" value="Submit Feedback">
+
+</form>
+
+<hr>
+
+<a name="contact"></a>
+
+<h2>Contact Us</h2>
+
+<p><b>Camp Name :</b> City Health Checkup Camp</p>
+
+<p><b>Location :</b> Community Health Center, Green Park</p>
+
+<p><b>Phone :</b> +91 9876543210</p>
+
+<p><b>Email :</b> healthcamp@example.com</p>
+
+<p><b>Working Time :</b> 9:00 AM to 5:00 PM</p>
+
+<hr>
+
+<h2>Frequently Asked Questions</h2>
+
+<p><b>1. Is the health checkup free?</b></p>
+
+<p>Yes, all basic health checkups are free for every visitor.</p>
+
+<p><b>2. Do I need to register before visiting?</b></p>
+
+<p>Registration at the camp is available, but online registration is recommended.</p>
+
+<p><b>3. Should I bring any documents?</b></p>
+
+<p>Please carry a valid ID card and previous medical reports if available.</p>
+
+<p><b>4. Can children attend the camp?</b></p>
+
+<p>Yes, people of all age groups are welcome.</p>
+
+<hr>
+
+<h2>Why Visit Our Health Camp?</h2>
+
+<ul>
+
+<li>Free medical checkups</li>
+
+<li>Experienced doctors</li>
+
+<li>Modern testing facilities</li>
+
+<li>Friendly volunteers</li>
+
+<li>Free health advice</li>
+
+<li>Quick registration process</li>
+
+<li>Healthy living awareness</li>
+
+</ul>
+
+<hr>
+
+<h2 align="center">Thank You</h2>
+
+<p align="center">
+    Thank you for visiting our Health Checkup Camp Registration System.
+We hope this camp helps you stay healthy and aware of your well-being.
+Your health is our priority.
+</p>
+
+<hr>
+
+<p align="center">
+
+© 2026 Health Checkup Camp Registration System
+
+
+</p>
+
+</body>
+
+</html
